@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* header */
+.main-content{
+background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(assets/hero-bg.png);
+width: 100%;
+height: 600px;
+position: relative;
+margin-bottom: 100px;
+}
+.main-content .main-text {
+position: absolute;
+top: 30%;
+left: 30%;
+text-align: center;
+}
+.main-content .main-text h5{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-content .main-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-content .main-text p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 700px;
+    margin-bottom: 20px;
+}
+.main-content .main-text button{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    
+}
+/* card */
+
+.main-part-card{
+   
+    height: 600px;
+    margin-bottom: 200px;
+}
+.main-part-card .card-text{
+margin-bottom: 60px;
+text-align: center;
+}
+.main-part-card .card-text h5{
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-part-card .card-text h1{
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    
+}
+.card-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-three .pizza-card , .kacci-card ,.burger-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.card-three button{
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    width: 150px;
+    padding: 5px 10px;
+    color: rgb(49, 48, 48);
+    font-size: 18px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-three .pizza-card , .kacci-card ,.burger-card , h2{
+    color: rgb(16, 16, 16);
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 10px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-three .pizza-card , .kacci-card ,.burger-card p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-ses-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.main-part-card .btn{
+    border-radius: 8px;
+    background: rgb(82, 195, 3); 
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+/* main-part-about */
+.main-part-about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+}
+.main-part-about .left-img{
+width: 45%;
+}
+.main-part-about .left-img img{
+width: 100%;
+}
+.main-part-about .right-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+margin-right: 50px;
+}
+.main-part-about .right-text h2{
+    color: rgb(16, 16, 16);
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+.main-part-about .right-text p{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+   margin-bottom: 10px;
+    letter-spacing: 0%;
+}
+.main-part-about .right-text h1{
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    font-weight: 600;
+   margin-top: 10px;
+   margin-bottom: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-part-about .right-text .icons{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 5px;
+}
+/* one-card */
+
+.main-one-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+.main-one-card img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.main-one-card button{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 5px 10px;
+    color: rgb(49, 48, 48);
+    font-size: 18px;
+    border: none;
+}
+.main-one-card h2{
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-one-card p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-one-card .btn-00{
+    border-radius: 8px;
+    background: rgb(82, 195, 3); 
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+/*footer  */
+footer{
+    background-image:linear-gradient(rgba(255, 255, 255,0.8),rgba(255,255,255,0.8)) ,url(assets/social-bg.png);
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.main-footer-text{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+}
+.main-footer-text h1{
+    color: rgb(38, 38, 38);
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+.main-footer-text h5{
+    color: rgb(38, 38, 38);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.main-footer-text h3{
+    color: rgb(42, 42, 42);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+   
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+.main-footer-text .icons{
+    display: flex;
+    
+}
+.main-footer-text .icons img{
+padding: 0 15px;
+}
